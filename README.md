@@ -10,9 +10,9 @@ This repository contains datasets generated from a layer-based finite-difference
 
 For a fixed layer `l` and power `p`, the transform is defined by
 
-\[
+$$
 T_{l,p}(n) = \sum_{v=0}^{l} (-1)^v \binom{l}{v} (n + l - v)^p
-\]
+$$
 
 For each fixed `l` and increasing `p`, this operator produces a family of polynomials whose coefficients form a triangular structure.  
 The degree of each polynomial is `p - l`; higher-degree terms vanish automatically due to finite-difference cancellation.
